@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div style="text-align:center">
+            <h1>Registration Form</h1>
+        </div>
+
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter First name">
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter Last name">
+
+            <label for="dob">Date of birth:</label>
+            <input type="date" id="dob" name="dob" placeholder="Pick your DOB">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your Age">
+
+            <label for="lname">Gender:</label>
+            <br><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <br><br>
+            <label for="phonenumber">Phone number:</label>
+            <input type="number" id="phonenumber" name="phonenumber" placeholder="Enter your Phone number">
+
+            <label for="email">Email address:</label>
+            <input type="number" id="email" name="email" placeholder="Enter your Email address">
+
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" rows="4" cols="50"></textarea>
+
+            <label for="state">State:</label>
+            <select name="state" id="state">
+                <option value="">Select a state</option>
+                <option value="kerala">Kerala</option>
+                <option value="tamilnadu">Tamil Nadu</option>
+                <option value="karnataka">Karnataka</option>
+                <option value="maharashtra">Maharashtra</option>
+            </select>
+
+            <label for="city">City:</label>
+            <select name="city" id="city">
+                <option value="tvm">Thiruvananthapuram</option>
+                <option value="kochi">Kochi</option>
+                <option value="kozhikode">Kozhikode</option>
+                <option value="thrissur">Thrissur</option>
+                <option value="chennai">Chennai</option>
+                <option value="salem">Salem</option>
+                <option value="bengaluru">Bengaluru</option>
+                <option value="mysuru">Mysuru</option>
+                <option value="pune">Pune</option>
+                <option value="mumbai">Mumbai</option>
+            </select>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your Username">
+
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" placeholder="Set your Password">
+
+            <label for="cpwd">Confirm Password:</label>
+            <input type="password" id="cpwd" name="cpwd" placeholder="Confirm your Password">
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+</body>
+
+</html>

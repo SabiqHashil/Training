@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="https://kit.fontawesome.com/3491c41381.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <div class="container" id="contact_container">
+        <!-- Navigation bar -->
+        <header>
+            <nav class="topnav">
+                <a href="../index.html">
+                    <img src="../images/claysys-logo.webp" style="float: left; height: 30px; padding: 10px;"
+                        alt="Logo"></a>
+                <li><a href="./aboutUs.html">About Us</a></li>
+                <li><a href="./loginForm.html">Sign In</a></li>
+                <li><a href="./registrationForm.html">Sign Up</a></li>
+                <li><a href="./contactUs.html">Contact Us</a></li>
+            </nav>
+        </header>
+        <div style="text-align:center">
+            <h1>Contact Us</h1>
+        </div>
+        <form>
+            <input type="text" id="name" placeholder="Name *" required>
+            <input type="email" id="businessname" placeholder="Business Email *" required>
+            <input type="text" id="companyname" placeholder="Company Name *" required>
+            <input type="number" id="countrycode" placeholder="Country Code *" required>
+            <input type="tel" id="phone" placeholder="Phone *" required>
+            <select name="service" id="service" required>
+                <option value="" disabled selected>Choose a Service</option>
+                <option value="product">Product</option>
+                <option value="services">Services</option>
+            </select>
+            <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+
+        <!-- Footer -->
+        <footer>
+            <p style="text-align: center;">Copyright © 2024, ClaySys Technologies All Rights Reserved.</p>
+            <div class="follow">
+                <div class="social-links">
+                    <h3>Follow Us</h3>
+                    <a href="#" class="fa fa-facebook fa-2x" aria-label="Facebook"></a>
+                    <a href="#" class="fa fa-twitter fa-2x" aria-label="Twitter"></a>
+                    <a href="#" class="fa fa-youtube fa-2x" aria-label="YouTube"></a>
+                    <a href="#" class="fa fa-linkedin fa-2x" aria-label="LinkedIn"></a>
+                    <a href="#" class="fa fa-instagram fa-2x" aria-label="Instagram"></a>
+                </div>
+                <div class="address">
+                    <address>
+                        ClaySys Technologies <br>
+                        4750 Ashwood Dr <br>
+                        Blue Ash <br>
+                        Cincinnati <br>
+                        Ohio 45241 <br>
+                        USA <br>
+                    </address>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>
