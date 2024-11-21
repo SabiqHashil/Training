@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3491c41381.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
-    <title>Registration Form</title>
+    <title>Sign Up</title>
 </head>
 
 <body>
@@ -21,79 +21,90 @@
             <li><a href="./contactUs.html">Contact Us</a></li>
         </nav>
     </header>
-    <div class="form-container" id="registration_container">
+    <div class="form-container" id="registration_container" onsubmit="return validateForm()">
         <div style="text-align:center">
-            <h1>Registration Form</h1>
+            <h1>Sign Up</h1>
         </div>
 
-        <form>
+        <form action="" method="post" name="registerForm" onsubmit="return validateForm()">
             <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname" placeholder="Enter First name">
+            <input type="text" id="fname" name="fname" placeholder="Enter First name" required>
+            <p id="fname" class="error"></p>
 
             <label for="lname">Last name:</label>
             <input type="text" id="lname" name="lname" placeholder="Enter Last name">
 
             <label for="dob">Date of birth:</label>
-            <input type="date" id="dob" name="dob" placeholder="Pick your DOB">
+            <input type="date" id="dob" name="dob" placeholder="Pick your DOB" required>
+            <p id="dob" class="error"></p>
+
 
             <label for="age">Age:</label>
-            <input type="number" id="age" name="age" placeholder="Enter your Age">
+            <input type="number" id="age" name="age" placeholder="Enter your Age" required>
+            <p id="age" class="error"></p>
+
 
             <label for="gender">Gender:</label>
             <br>
             <label for="male">Male</label>
-            <input type="radio" id="male" name="gender" value="Male">
+            <input type="radio" id="male" name="gender" value="Male" required>
             <label for="female">Female</label>
-            <input type="radio" id="female" name="gender" value="Female">
+            <input type="radio" id="female" name="gender" value="Female" required>
+            <br>
+            <p id="gender" class="error"></p>
 
-            <br><br>
+            <br>
             <label for="phonenumber">Phone number:</label>
-            <input type="number" id="phonenumber" name="phonenumber" placeholder="Enter your Phone number">
+            <input type="number" id="phonenumber" name="phonenumber" placeholder="Enter your Phone number" required>
+            <p id="phonenumber" class="error"></p>
+
 
             <label for="email">Email address:</label>
-            <input type="number" id="email" name="email" placeholder="Enter your Email address">
+            <input type="email" id="email" name="email" placeholder="Enter your Email address" required>
+            <p id="email" class="error"></p>
+
 
             <label for="address">Address:</label>
             <textarea name="address" id="address" rows="4" cols="50"></textarea>
 
+
             <label for="state">State:</label>
-            <select name="state" id="state">
+            <select name="state" id="state" onchange="updateCities()">
                 <option value="">Select a state</option>
                 <option value="kerala">Kerala</option>
                 <option value="tamilnadu">Tamil Nadu</option>
                 <option value="karnataka">Karnataka</option>
                 <option value="maharashtra">Maharashtra</option>
             </select>
+            <p id="state" class="error"></p>
+
 
             <label for="city">City:</label>
             <select name="city" id="city">
-                <option value="tvm">Thiruvananthapuram</option>
-                <option value="kochi">Kochi</option>
-                <option value="kozhikode">Kozhikode</option>
-                <option value="thrissur">Thrissur</option>
-                <option value="chennai">Chennai</option>
-                <option value="salem">Salem</option>
-                <option value="bengaluru">Bengaluru</option>
-                <option value="mysuru">Mysuru</option>
-                <option value="pune">Pune</option>
-                <option value="mumbai">Mumbai</option>
+                <option value="">Select a city</option>
             </select>
+            <p id="city" class="error"></p>
+
 
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" placeholder="Enter your Username">
+            <p id="username" class="error"></p>
+
 
             <label for="pwd">Password:</label>
-            <input type="password" id="pwd" name="pwd" placeholder="Set your Password">
+            <input type="password" id="pwd" name="pwd" placeholder="Set your Password" required>
 
             <label for="cpwd">Confirm Password:</label>
-            <input type="password" id="cpwd" name="cpwd" placeholder="Confirm your Password">
-
-            <input type="submit" value="Submit">
-
+            <input type="password" id="cpwd" name="cpwd" placeholder="Confirm your Password" required>
+            <p id="passwordError" class="error"></p>
+            <button type="button">Register</button>
+            <p id="status" class="status"></p>
         </form>
         <div class="container" style="background-color: #f1f1f1; ">
             <span class="psw">Already Signed? <a href="./loginForm.html">Sig In now</a></span>
         </div>
+
+
     </div>
     <!-- Footer -->
     <footer>
@@ -119,7 +130,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="../js/register.js"></script>
 </body>
 
 </html>

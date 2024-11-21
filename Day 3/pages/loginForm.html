@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/3491c41381.js" crossorigin="anonymous"></script>
-    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Login Form</title>
 </head>
 
 <body>
-     <!-- Navigation bar -->
-     <header>
+    <!-- Navigation bar -->
+    <header>
         <nav class="topnav">
             <a href="../index.html">
                 <img src="../images/claysys-logo.webp" style="float: left; height: 30px; padding: 10px;" alt="Logo"></a>
@@ -21,27 +21,37 @@
             <li><a href="./contactUs.html">Contact Us</a></li>
         </nav>
     </header>
-    <div class="form-container" id="contact_container">
-        <!-- Contact Us Form Heading -->
+    <div class="form-container" id="login_container">
+
+
         <div style="text-align:center">
-            <h1>Contact Us</h1>
+            <h1>Sign In</h1>
         </div>
 
-        <!-- Contact Us Form -->
-        <form>
-            <input type="text" id="name" placeholder="Name *" required>
-            <input type="email" id="businessname" placeholder="Business Email *" required>
-            <input type="text" id="companyname" placeholder="Company Name *" required>
-            <input type="number" id="countrycode" placeholder="Country Code *" required>
-            <input type="tel" id="phone" placeholder="Phone *" required>
-            <select name="service" id="service" required>
-                <option value="" disabled selected>Choose a Service</option>
-                <option value="product">Product</option>
-                <option value="services">Services</option>
-            </select>
-            <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
-            <input type="submit" value="Send Message">
+        <form action="" method="post" name="loginForm">
+            <div class="container">
+                <label for="email"><b>Email Address</b></label>
+                <input type="email" id="email" placeholder="Email Address" name="email" required>
+                <p id="emailError" class="error"></p>
+
+                <label for="password"><b>Password</b></label>
+                <input type="password" id="password" placeholder="Password" name="password" required>
+                <p id="passwordError" class="error"></p>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                    <a href="#">Forgot password?</a>
+                </label>
+            </div>
+
+
+            <button type="button" onclick="validateForm()">Login</button>
+            <div class="container" style="background-color: #f1f1f1;">
+                <span class="psw">Not a member? <a href="./registrationForm.html">Signup now</a></span>
+            </div>
+            <p id="status" class="status"></p>
         </form>
+
     </div>
     <!-- Footer -->
     <footer>
@@ -68,6 +78,7 @@
         </div>
     </footer>
 
+    <script src="../js/login.js"></script>
 </body>
 
 </html>
