@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 
 <head>
@@ -21,27 +21,26 @@
             <li><a href="./contactUs.html">Contact Us</a></li>
         </nav>
     </header>
-    <div class="form-container" id="registration_container" onsubmit="return validateForm()">
+    <div class="form-container" id="registration_container">
         <div style="text-align:center">
             <h1>Sign Up</h1>
         </div>
 
-        <form action="" method="post" name="registerForm" onsubmit="return validateForm()">
+        <form method="post" name="registerForm">
             <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname" placeholder="Enter First name" required>
-            <p id="fname" class="error"></p>
+            <p id="fname-err" class="error"></p>
 
             <label for="lname">Last name:</label>
             <input type="text" id="lname" name="lname" placeholder="Enter Last name">
+            <p id="lname-err" class="error"></p>
 
             <label for="dob">Date of birth:</label>
             <input type="date" id="dob" name="dob" placeholder="Pick your DOB" required>
-            <p id="dob" class="error"></p>
-
+            <p id="dob-err" class="error"></p>
 
             <label for="age">Age:</label>
-            <input type="number" id="age" name="age" placeholder="Enter your Age" required>
-            <p id="age" class="error"></p>
+            <input type="number" id="age" name="age" placeholder="Enter your Age" disabled>
 
 
             <label for="gender">Gender:</label>
@@ -51,17 +50,17 @@
             <label for="female">Female</label>
             <input type="radio" id="female" name="gender" value="Female" required>
             <br>
-            <p id="gender" class="error"></p>
+            <p id="gender-err" class="error"></p>
 
             <br>
             <label for="phonenumber">Phone number:</label>
             <input type="number" id="phonenumber" name="phonenumber" placeholder="Enter your Phone number" required>
-            <p id="phonenumber" class="error"></p>
+            <p id="phonenumber-err" class="error"></p>
 
 
             <label for="email">Email address:</label>
             <input type="email" id="email" name="email" placeholder="Enter your Email address" required>
-            <p id="email" class="error"></p>
+            <p id="email-err" class="error"></p>
 
 
             <label for="address">Address:</label>
@@ -76,19 +75,19 @@
                 <option value="karnataka">Karnataka</option>
                 <option value="maharashtra">Maharashtra</option>
             </select>
-            <p id="state" class="error"></p>
+            <p id="state-err" class="error"></p>
 
 
             <label for="city">City:</label>
             <select name="city" id="city">
                 <option value="">Select a city</option>
             </select>
-            <p id="city" class="error"></p>
+            <p id="city-err" class="error"></p>
 
 
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" placeholder="Enter your Username">
-            <p id="username" class="error"></p>
+            <p id="username-err" class="error"></p>
 
 
             <label for="pwd">Password:</label>
@@ -97,10 +96,12 @@
             <label for="cpwd">Confirm Password:</label>
             <input type="password" id="cpwd" name="cpwd" placeholder="Confirm your Password" required>
             <p id="passwordError" class="error"></p>
-            <button type="button">Register</button>
+
+            <button type="button" onclick="validateForm()">Register</button>
             <p id="status" class="status"></p>
         </form>
-        <div class="container" style="background-color: #f1f1f1; ">
+
+        <div class="container">
             <span class="psw">Already Signed? <a href="./loginForm.html">Sig In now</a></span>
         </div>
 

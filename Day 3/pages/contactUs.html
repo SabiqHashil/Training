@@ -10,8 +10,8 @@
 </head>
 
 <body>
-     <!-- Navigation bar -->
-     <header>
+    <!-- Navigation bar -->
+    <header>
         <nav class="topnav">
             <a href="../index.html">
                 <img src="../images/claysys-logo.webp" style="float: left; height: 30px; padding: 10px;" alt="Logo"></a>
@@ -26,22 +26,36 @@
         <div style="text-align:center">
             <h1>Contact Us</h1>
         </div>
-
         <!-- Contact Us Form -->
-        <form>
-            <input type="text" id="name" placeholder="Name *" required>
-            <input type="email" id="businessname" placeholder="Business Email *" required>
-            <input type="text" id="companyname" placeholder="Company Name *" required>
-            <input type="number" id="countrycode" placeholder="Country Code *" required>
-            <input type="tel" id="phone" placeholder="Phone *" required>
-            <select name="service" id="service" required>
-                <option value="" disabled selected>Choose a Service</option>
+        <form id="contactForm" method="post" name="contactForm">
+            <input type="text" id="name" placeholder="Name *" >
+            <span class="error" id="nameError"></span>
+
+            <input type="email" id="businessEmail" placeholder="Business Email *" >
+            <span class="error" id="emailError"></span>
+
+            <input type="text" id="companyName" placeholder="Company Name *" >
+            <span class="error" id="companyError"></span>
+
+            <input type="number" id="countryCode" placeholder="Country Code *" >
+            <span class="error" id="codeError"></span>
+
+            <input type="tel" id="phone" placeholder="Phone *" >
+            <span class="error" id="phoneError"></span>
+
+            <select name="service" id="service" >
+                <option value="" disabled selected>Choose a Service *</option>
                 <option value="product">Product</option>
                 <option value="services">Services</option>
             </select>
+            <span class="error" id="serviceError"></span>
+
             <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
-            <input type="submit" value="Send Message">
+
+            <button type="submit">Send Message</button>
+            <span id="statusMessage" class="status"></span>
         </form>
+
     </div>
     <!-- Footer -->
     <footer>
@@ -68,6 +82,7 @@
         </div>
     </footer>
 
+    <script src="../js/contact.js"></script>
 </body>
 
 </html>
