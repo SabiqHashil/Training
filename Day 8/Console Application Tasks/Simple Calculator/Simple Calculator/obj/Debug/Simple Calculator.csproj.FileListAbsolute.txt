@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\Console Application Tasks\Simple Calculator\Simple Calculator\bin\Debug\Simple Calculator.exe.config
+C:\Users\user\source\repos\Console Application Tasks\Simple Calculator\Simple Calculator\bin\Debug\Simple Calculator.exe
+C:\Users\user\source\repos\Console Application Tasks\Simple Calculator\Simple Calculator\bin\Debug\Simple Calculator.pdb
+C:\Users\user\source\repos\Console Application Tasks\Simple Calculator\Simple Calculator\obj\Debug\Simple Calculator.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Console Application Tasks\Simple Calculator\Simple Calculator\obj\Debug\Simple Calculator.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Console Application Tasks\Simple Calculator\Simple Calculator\obj\Debug\Simple Calculator.exe
+C:\Users\user\source\repos\Console Application Tasks\Simple Calculator\Simple Calculator\obj\Debug\Simple Calculator.pdb
