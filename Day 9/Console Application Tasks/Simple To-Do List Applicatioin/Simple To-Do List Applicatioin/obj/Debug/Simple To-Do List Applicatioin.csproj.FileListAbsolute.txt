@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\Console Application Tasks\Simple To-Do List Applicatioin\Simple To-Do List Applicatioin\bin\Debug\Simple To-Do List Applicatioin.exe.config
+C:\Users\user\source\repos\Console Application Tasks\Simple To-Do List Applicatioin\Simple To-Do List Applicatioin\bin\Debug\Simple To-Do List Applicatioin.exe
+C:\Users\user\source\repos\Console Application Tasks\Simple To-Do List Applicatioin\Simple To-Do List Applicatioin\bin\Debug\Simple To-Do List Applicatioin.pdb
+C:\Users\user\source\repos\Console Application Tasks\Simple To-Do List Applicatioin\Simple To-Do List Applicatioin\obj\Debug\Simple To-Do List Applicatioin.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Console Application Tasks\Simple To-Do List Applicatioin\Simple To-Do List Applicatioin\obj\Debug\Simple To-Do List Applicatioin.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Console Application Tasks\Simple To-Do List Applicatioin\Simple To-Do List Applicatioin\obj\Debug\Simple To-Do List Applicatioin.exe
+C:\Users\user\source\repos\Console Application Tasks\Simple To-Do List Applicatioin\Simple To-Do List Applicatioin\obj\Debug\Simple To-Do List Applicatioin.pdb
