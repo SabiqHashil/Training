@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\Console Application Tasks\Guess the Number Game\Guess the Number Game\bin\Debug\Guess the Number Game.exe.config
+C:\Users\user\source\repos\Console Application Tasks\Guess the Number Game\Guess the Number Game\bin\Debug\Guess the Number Game.exe
+C:\Users\user\source\repos\Console Application Tasks\Guess the Number Game\Guess the Number Game\bin\Debug\Guess the Number Game.pdb
+C:\Users\user\source\repos\Console Application Tasks\Guess the Number Game\Guess the Number Game\obj\Debug\Guess the Number Game.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Console Application Tasks\Guess the Number Game\Guess the Number Game\obj\Debug\Guess the Number Game.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Console Application Tasks\Guess the Number Game\Guess the Number Game\obj\Debug\Guess the Number Game.exe
+C:\Users\user\source\repos\Console Application Tasks\Guess the Number Game\Guess the Number Game\obj\Debug\Guess the Number Game.pdb

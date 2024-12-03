@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\Console Application Tasks\Simple Voting System\Simple Voting System\obj\Debug\Simple Voting System.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Console Application Tasks\Simple Voting System\Simple Voting System\obj\Debug\Simple Voting System.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Console Application Tasks\Simple Voting System\Simple Voting System\bin\Debug\Simple Voting System.exe.config
+C:\Users\user\source\repos\Console Application Tasks\Simple Voting System\Simple Voting System\bin\Debug\Simple Voting System.exe
+C:\Users\user\source\repos\Console Application Tasks\Simple Voting System\Simple Voting System\bin\Debug\Simple Voting System.pdb
+C:\Users\user\source\repos\Console Application Tasks\Simple Voting System\Simple Voting System\obj\Debug\Simple Voting System.exe
+C:\Users\user\source\repos\Console Application Tasks\Simple Voting System\Simple Voting System\obj\Debug\Simple Voting System.pdb
