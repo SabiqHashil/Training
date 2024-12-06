@@ -1,0 +1,92 @@
+﻿@model StudentDto
+
+<div class="row justify-content-center">
+    <div class="col-md-8 rounded border p-4 shadow-sm">
+        <h2 class="text-center mb-4">Edit Job Application</h2>
+
+        <form method="post" enctype="multipart/form-data">
+
+            <!-- Name -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fw-bold">Name</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Name" type="text" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fw-bold">Email</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Email" type="email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fw-bold">Phone</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Phone" type="tel" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Date of Birth -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fw-bold">Date of Birth</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="DOB" type="date" />
+                    <span asp-validation-for="DOB" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Photo -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fw-bold">Photo</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Photo" type="file" accept="image/*" />
+                    <span asp-validation-for="Photo" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Photo Preview -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fw-bold">Current Photo</label>
+                <div class="col-sm-8">
+                        <img src="data:image/png;base64,@ViewData["Photo"]" alt="Photo" class="img-thumbnail rounded" style="max-width: 150px;" />
+                </div>
+            </div>
+
+            <!-- Resume -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fw-bold">Resume</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Resume" type="file" accept=".pdf" />
+                    <span asp-validation-for="Resume" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Resume Preview -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fw-bold">Current Resume</label>
+                <div class="col-sm-8">
+                        <a href="data:application/pdf;base64,@ViewData["Resume"]" download="Resume.pdf" target="_blank" class="btn btn-link p-0 text-decoration-none">
+                            <i class="bi bi-download"></i> Download/View Resume
+                        </a>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid text-center mb-2">
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-secondary" asp-controller="Students" asp-action="Index" role="button">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+﻿@using StudentJobApplication.Models
+@model List<Student>
+
+<h2 class="text-center mb-5">List of Job Applications</h2>
+<div class="row mb-5">
+    <div class="col">
+        <a class="btn btn-primary" asp-controller="Students" asp-action="Create">New Application</a>
+    </div>
+    <div class="col">
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>DOB</th>
+            <th>Photo</th>
+            <th>Resume</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.Name</td>
+                <td>@student.Email</td>
+                <td>@student.Phone</td>
+                <td>@student.DOB.ToString("MM/dd/yyyy")</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(student?.Photo))
+                    {
+                        <img src="data:image/jpeg;base64,@Html.Raw(student.Photo)" alt="Photo" style="width:50px;height:50px;" />
+                    }
+                </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(student?.Resume))
+                    {
+                        <a href="data:application/pdf;base64,@Html.Raw(student.Resume)" download="resume.pdf">Download Resume</a>
+                    }
+                </td>
+                <td style="white-space:nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="Students" asp-action="Edit" asp-route-id="@student.Id">
+                        Edit
+                    </a>
+                    <a class="btn btn-danger btn-sm" asp-controller="Students" asp-action="Delete" asp-route-id="@student.Id" onclick="return confirm('Are you sure?')">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
