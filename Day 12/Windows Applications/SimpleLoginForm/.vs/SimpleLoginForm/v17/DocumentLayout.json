@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Windows Applications\\SimpleLoginForm\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Training\\Day 12\\Windows Applications\\SimpleLoginForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0438D762-8F94-4EA4-90F8-D7F24A495AB9}|SimpleLoginForm\\SimpleLoginForm.csproj|c:\\users\\user\\source\\repos\\windows applications\\simpleloginform\\simpleloginform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0438D762-8F94-4EA4-90F8-D7F24A495AB9}|SimpleLoginForm\\SimpleLoginForm.csproj|c:\\users\\user\\documents\\github\\training\\day 12\\windows applications\\simpleloginform\\simpleloginform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0438D762-8F94-4EA4-90F8-D7F24A495AB9}|SimpleLoginForm\\SimpleLoginForm.csproj|solutionrelative:simpleloginform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0438D762-8F94-4EA4-90F8-D7F24A495AB9}|SimpleLoginForm\\SimpleLoginForm.csproj|c:\\users\\user\\source\\repos\\windows applications\\simpleloginform\\simpleloginform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0438D762-8F94-4EA4-90F8-D7F24A495AB9}|SimpleLoginForm\\SimpleLoginForm.csproj|C:\\Users\\user\\Documents\\GitHub\\Training\\Day 12\\Windows Applications\\SimpleLoginForm\\simpleloginform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0438D762-8F94-4EA4-90F8-D7F24A495AB9}|SimpleLoginForm\\SimpleLoginForm.csproj|solutionrelative:simpleloginform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Windows Applications\\SimpleLoginForm\\SimpleLoginForm\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Training\\Day 12\\Windows Applications\\SimpleLoginForm\\SimpleLoginForm\\Form1.cs",
               "RelativeDocumentMoniker": "SimpleLoginForm\\Form1.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Windows Applications\\SimpleLoginForm\\SimpleLoginForm\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Training\\Day 12\\Windows Applications\\SimpleLoginForm\\SimpleLoginForm\\Form1.cs",
               "RelativeToolTip": "SimpleLoginForm\\Form1.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAUwBEAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,13 +37,12 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Windows Applications\\SimpleLoginForm\\SimpleLoginForm\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Training\\Day 12\\Windows Applications\\SimpleLoginForm\\SimpleLoginForm\\Form1.cs",
               "RelativeDocumentMoniker": "SimpleLoginForm\\Form1.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Windows Applications\\SimpleLoginForm\\SimpleLoginForm\\Form1.cs [Design]",
-              "RelativeToolTip": "SimpleLoginForm\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\source\\repos\\Windows Applications\\SimpleLoginForm\\SimpleLoginForm\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:12:22.746Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-28T12:12:22.746Z"
             }
           ]
         }

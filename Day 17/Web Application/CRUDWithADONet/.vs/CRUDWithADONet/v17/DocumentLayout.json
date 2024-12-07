@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Web Application\\CRUDWithADONet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|c:\\users\\user\\source\\repos\\web application\\crudwithadonet\\dal\\employee_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|solutionrelative:dal\\employee_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|c:\\users\\user\\source\\repos\\web application\\crudwithadonet\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|c:\\users\\user\\source\\repos\\web application\\crudwithadonet\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|solutionrelative:views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|c:\\users\\user\\source\\repos\\web application\\crudwithadonet\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Web Application\\CRUDWithADONet\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Web Application\\CRUDWithADONet\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T07:06:13.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Web Application\\CRUDWithADONet\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Web Application\\CRUDWithADONet\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Delete.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T07:05:54.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Web Application\\CRUDWithADONet\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Web Application\\CRUDWithADONet\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAmwIMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:08:32.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee_DAL.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Web Application\\CRUDWithADONet\\DAL\\Employee_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Employee_DAL.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Web Application\\CRUDWithADONet\\DAL\\Employee_DAL.cs",
+              "RelativeToolTip": "DAL\\Employee_DAL.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAqwH4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:56:44.629Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
