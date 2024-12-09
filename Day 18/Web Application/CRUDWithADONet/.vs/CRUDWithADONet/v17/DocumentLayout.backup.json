@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|d:\\claysys tasks\\web application\\crudwithadonet\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|d:\\claysys tasks\\web application\\crudwithadonet\\dal\\employee_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|solutionrelative:dal\\employee_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|d:\\claysys tasks\\web application\\crudwithadonet\\views\\employee\\createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|solutionrelative:views\\employee\\createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|d:\\claysys tasks\\web application\\crudwithadonet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|d:\\claysys tasks\\web application\\crudwithadonet\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|d:\\claysys tasks\\web application\\crudwithadonet\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E3874D-CC9E-4101-A973-6E81BE9B9716}|CRUDWithADONet.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-09T10:50:36.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T10:17:05.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAlwDEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T10:08:28.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateOrEdit.cshtml",
+              "DocumentMoniker": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\Views\\Employee\\CreateOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\CreateOrEdit.cshtml",
+              "ToolTip": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\Views\\Employee\\CreateOrEdit.cshtml",
+              "RelativeToolTip": "Views\\Employee\\CreateOrEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T10:04:21.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:08:32.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee_DAL.cs",
+              "DocumentMoniker": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\DAL\\Employee_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Employee_DAL.cs",
+              "ToolTip": "D:\\ClaySys Tasks\\Web Application\\CRUDWithADONet\\DAL\\Employee_DAL.cs",
+              "RelativeToolTip": "DAL\\Employee_DAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:56:44.629Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

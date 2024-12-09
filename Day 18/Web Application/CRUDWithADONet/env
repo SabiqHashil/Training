@@ -1,0 +1,4 @@
+MONGOOSE_CONNECTION = 'mongodb://localhost:27017/Kabs_digital'
+USER = "Anasuddeen"
+APP_PASSWORD = "raazlrvhrntlcloh"
+SMTP_FROM = 'ppanasudheen@gmail.com'
